@@ -1,0 +1,152 @@
+/* //////// General Styling ///// */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: "Poppins", sans-serif;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subtitle {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+a,
+a:hover {
+  display: block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(116, 116, 116);
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  line-height: 1.4;
+  margin: 1.5rem 0;
+}
+
+/* //////// main div ///////// */
+.main-div {
+  width: 100%;
+  padding: 4rem 5rem 0rem;
+  border-top: 2.5rem solid rgb(164, 156, 255);
+  border-bottom: 2.5rem solid rgb(164, 156, 255);
+}
+/* ////// top //////// */
+.main-div .top {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.top .info {
+  width: 65%;
+}
+
+.top .info .name {
+  font-size: 5rem;
+  font-weight: 600;
+  color: rgb(63, 61, 86);
+  letter-spacing: 0.1rem;
+}
+
+.top .info .title {
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgb(116, 116, 116);
+}
+
+.top .social-div {
+  width: 30%;
+}
+
+.top .social-div .globe-img {
+  padding-right: 1rem;
+  margin-bottom: -0.2rem;
+}
+
+.top .social-div a .fa-icon {
+  display: inline-block;
+  width: 2.5rem;
+}
+
+/* /////// bottom start  /////*/
+.main-div .bottom {
+  width: 100%;
+}
+/* ///// bottom-left ////// */
+.bottom .left {
+  width: 65%;
+}
+
+.bottom .left .section {
+  padding-bottom: 2rem;
+}
+
+.bottom .left .projects a {
+  color: rgb(116, 116, 116);
+  margin: 0;
+}
+
+.bottom .left .education {
+  padding-bottom: 0;
+}
+
+.bottom .left .education h4 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: rgb(116, 116, 116);
+}
+
+.bottom .left .education h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.bottom .left .education p {
+  margin: 0.5rem 0 2rem 0;
+}
+
+/* ///// bottom-right ///////*/
+.bottom .right {
+  width: 30%;
+}
+
+.bottom .right .section {
+  padding-bottom: 1rem;
+}
+
+.bottom .right .certificate a {
+  font-size: 1.4rem;
+  margin-top: 0;
+}
+
+.footer {
+  font-size: 1.5rem;
+  margin: 0 0 2rem;
+}
+
+.footer a {
+  display: inline;
+  margin: 0;
+}
